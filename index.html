@@ -436,6 +436,25 @@ https://templatemo.com/tm-562-space-dynamic
             document.head.appendChild(newMetaDescription);
         }
     </script>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Sélectionne la balise meta pour le titre
+    var titleMetaTag = document.querySelector('meta[property="og:title"]');
+    if (titleMetaTag) {
+        // Mettez à jour le contenu du titre
+        titleMetaTag.setAttribute('content', 'Nouveau Titre pour les Réseaux Sociaux');
+    }
+
+    // Sélectionne la balise meta pour la description
+    var descriptionMetaTag = document.querySelector('meta[property="og:description"]');
+    if (descriptionMetaTag) {
+        // Mettez à jour le contenu de la description
+        descriptionMetaTag.setAttribute('content', 'Nouvelle Description pour les Réseaux Sociaux');
+    }
+});
+</script>
+
+
 
 
 </body>
