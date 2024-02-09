@@ -423,5 +423,20 @@ https://templatemo.com/tm-562-space-dynamic
   <script src="assets/js/imagesloaded.js"></script>
   <script src="assets/js/templatemo-custom.js"></script>
 
+<script>
+        // Le code JavaScript que vous avez reçu précédemment
+        document.title = "Placealouer";
+        var metaDescription = document.querySelector('meta[name="description"]');
+        if (metaDescription) {
+            metaDescription.content = "Placealouer est une application de location de place de parking et de garages entre particuliers. Rentabilisez votre place dès maintenant.";
+        } else {
+            var newMetaDescription = document.createElement('meta');
+            newMetaDescription.name = "description";
+            newMetaDescription.content = "Placealouer est une application de location de place de parking et de garages entre particuliers. Rentabilisez votre place dès maintenant.";
+            document.head.appendChild(newMetaDescription);
+        }
+    </script>
+
+
 </body>
 </html>
