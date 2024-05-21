@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="fr">
 
-  <head>
-  <meta charset="UTF-8">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bouton Instagram</title>
     <style>
-        .instagram-button {
+        .instagram-button, .x-button {
             display: inline-flex;
             align-items: center;
-            background-color: #E1306C;
             color: white;
             border: none;
             border-radius: 50px;
@@ -18,135 +17,62 @@
             font-weight: bold;
             text-decoration: none;
             transition: background-color 0.3s ease;
+            margin-bottom: 20px; /* Espace entre les boutons et le texte au-dessus */
         }
 
-        .instagram-logo {
+        .instagram-button {
+            background-color: #E1306C;
+        }
+
+        .x-button {
+            background-color: #1DA1F2;
+        }
+
+        .instagram-logo, .x-logo {
             width: 24px;
             height: 24px;
             margin-right: 10px;
         }
-         .spacer {
-            width: 20px; /* Ajuste la largeur de l'espace entre les boutons */
+
+        .spacer {
+            width: 20px;
         }
     </style>
+</head>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-6JQ4RMNB59"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-6JQ4RMNB59');
-</script>
-
-    <meta name="google-adsense-account" content="ca-pub-1273919252016588">
-
-
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1273919252016588"
-     crossorigin="anonymous"></script>
-
-    <meta charset="UTF-8">
-    <meta property="og:title" content="Placealouer">
-    <meta property="og:description" content="Placealouer est une application de location de place de parking et de garages entre particuliers. Rentabilisez votre place dès maintenant.">
-<meta name="google-site-verification" content="rVRsbIudBLoOphU1f7lMC27i_zp1ltSZwZmRuahU8Bg" />
-
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="Placealouer est une application de location de place de parking et de garages entre particuliers. Rentabilisez votre place dès maintenant.">
-    <meta name="author" content="Placealouer">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-
-    <title>Placealouer</title>
-
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
-    <link rel="stylesheet" href="assets/css/animated.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <style>
-        .image-chercheplace {
-            max-height:400px; /* Ajustez la hauteur maximale selon vos besoins */
-            width: auto; /* Garantit que l'ajustement de la hauteur conserve les proportions originales de l'image */
-            display: block; /* Supprime les espaces supplémentaires sous l'image en tant qu'élément en ligne */
-            margin: 0 auto; /* Centre l'image horizontalement */
-        }
-    </style>
-
-<!--
-    
-
--->
-  </head>
-  <!-- ***** Header Area Start ***** -->
-  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <nav class="main-nav">
-            <!-- ***** Logo Start ***** -->
-            <a href="assets/images/logocolor.png" class="logo">
-
-              <h4>Place<span>a</span>louer</h4>
-            </a>
-            <!-- ***** Logo End ***** -->
-          </nav>
-        </div>
-      </div>
-    </div>
-  </header>
-  <!-- ***** Header Area End ***** -->
 <body>
-<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-  <!-- ***** Preloader Start ***** -->
-  <div id="js-preloader" class="js-preloader">
-    <div class="preloader-inner">
-      <span class="dot"></span>
-      <div class="dots">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-  <!-- ***** Preloader End ***** -->
-
-
-
-  <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="row">
-            <div class="col-lg-6 align-self-center">
-              <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
-          
-                <h2>Location de <em>garage & parking</em> <span></span> entre particuliers</h2>
-                  <fieldset>
-
-                     <a href="https://www.instagram.com/placealouer/" class="instagram-button">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="instagram-logo">
-        Suivez-nous sur Instagram !
-                   <div class="spacer"></div>
-                       <a href="https://twitter.com/placealouer" class="twitter-follow-button" data-show-count="false">Suivez nous sur x</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-</a>
-                  </fieldset>
-                </form>
-              </div>
+    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-6 align-self-center">
+                            <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                                <h2>Location de <em>garage & parking</em> <span></span> entre particuliers</h2>
+                                <fieldset>
+                                    <a href="https://www.instagram.com/placealouer/" class="instagram-button">
+                                        <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram Logo" class="instagram-logo">
+                                        Suivez-nous sur Instagram !
+                                    </a>
+                                    <div class="spacer"></div>
+                                    <a href="https://twitter.com/placealouer" class="x-button">
+                                        <img src="https://upload.wikimedia.org/wikipedia/en/6/60/Twitter_Logo_as_of_2021.svg" alt="X Logo" class="x-logo">
+                                        Suivez nous sur X
+                                    </a>
+                                </fieldset>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                                <img src="assets/images/logocolor.png" alt="team meeting" class="image-chercheplace">
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-6">
-              <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
-                <img src="assets/images/logocolor.png" alt="team meeting" class="image-chercheplace">
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
     </div>
-  </div>
+</body>
 
   <div id="about" class="about-us section">
     <div class="container">
